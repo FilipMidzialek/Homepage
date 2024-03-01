@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cristiano Ronaldo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+ <link href="css/style.css" rel="stylesheet">
+ <link href="css/container.css" rel="stylesheet">
+ <link href="css/footer.css" rel="stylesheet">
+ <link href="css/header.css" rel="stylesheet">
+ <link href="css/section.css" rel="stylesheet">
+ <link href="css/table.css" rel="stylesheet">
+ <link href="css/tableContainer.css" rel="stylesheet">
+ <link href="css/navigation.css" rel="stylesheet">
+ <script defer src="js/script.js"></script>
+</head>
+<body class="js-bodyElement body">
+  <div class="container">
+    <header>
+      <h1 class="header">Cristiano Ronaldo</h1>
+    </header>
+    <nav class="navigation">
+      <li class="navigation__list"><a class="navigation__link" href="#Beginning">Początek</a></li>
+      <li class="navigation__list"><a class="navigation__link" href="#Biography">Życiorys</a></li>
+      <li class="navigation__list"><a class="navigation__link" href="#Clubs">Kluby</a></li>
+      <li class="navigation__list"><a class="navigation__link" href="#NationalTeam">Reprezentacja</a></li>
+      <li class="navigation__list"><a class="navigation__link" href="#Achievement">Osiągnięcia</a></li>
+      <main>
+        <section class="section" id="Beginning">
+          <h2 class="section__header">Początek</h2>
+          <div class="pictureContainer">
+            <img width=300 height=250 src="https://i.postimg.cc/d1hYNdbh/Cristiano-Ronaldo.jpg" alt="Cristiano Ronaldo">
+          </div>
+          <p class="js-section__paragraph"> Strona ta opisuje jednego z najlepszych piłkarzy w historii, czyli Cristiano Ronaldo, a dokładniej Cristiano Ronaldo Dos Santos Aveiro.Cristiano Ronaldo, portugalski piłkarz urodzony 5 lutego 1985 r. na Maderze, jest jednym z najbardziej utalentowanych i uznanych zawodników w historii futbolu. Jego kariera rozkwitła w Manchesterze United, gdzie zdobył trzy tytuły Premier League i triumfował w Lidze Mistrzów. Ronaldo wyróżnia się nie tylko umiejętnościami strzeleckimi, ale także niesamowitą szybkością, siłą fizyczną i doskonałą techniką.</p>
+          <button class="section__button 
+           js-RemoveHeadlineButton">Usuń akapit</button>
+        </section>
+        <section class="section" id="Biography">
+          <h2 class="section__header">Życiorys</h2>
+          <p class="section__paragraph">
+      <p> Urodził się <b> w Santo António, dzielnicy na przedmieściach Funchal na Maderze.</b> Jego matka - Maria Dolores dos Santos - była kucharką i dorabiała jako sprzątaczka we Francji, a ojciec - José Dinis Aveiro (1954-2005) - był ogrodnikiem i zmagał się z uzależnieniem alkoholowym. Cristiano wychowywał się w ubogiej rodzinie wraz z trojgiem starszego rodzeństwa: bratem Hugo oraz siostrami: Elmą i Lilianą Kátią. Rodzina mieszkała w domu komunalnym przy Rua da Quinta do Falcão 27A w Santo António. Pierwsze imię dla chłopca zasugerowała rodzicom jego ciotka, która pracowała w katolickim sierocińcu, a drugie nadano mu na cześć ulubionego aktora jego ojca, amerykańskiego prezydenta Ronalda Reagana.
+    
+      Mając trzy lata, zaczął grać w piłkę nożną z kolegami z sąsiedztwa. Uczył się w szkole podstawowej im. João Gonçalves Zarco. Pierwsze treningi piłkarskie rozpoczął w 1993, mając osiem lat, w klubie Andorinha, w którym dorywczo pracował jego ojciec jako osoba odpowiedzialna za sprzęt dla zawodników. Jego pierwszym trenerem był Francisco Afonso. Już w tamtym czasie wyróżniał się szybkością na boisku i umiejętnymi zwodami, dlatego nosił pseudonim „Pszczółka”, jednocześnie z uwagi na fakt, że reagował płaczem na przegraną, czasem przezywano go „Płaczkiem”. Gdy miał 10 lat, trafił do Nacionalu Madera, w którym jego ojciec chrzestny - Fernão Barroso Sousa - był odpowiedzialny za kompletowanie drużyn młodzieżowych. W sezonie 1995/1996 drużyna, pod kierownictwem António Mendonçy, zdobyła mistrzostwo regionu w kategorii 10-12 lat.
+    </p>
+    </section>
+    <section class="section" id="Clubs">
+      <div class="tableContainer">
+        <table class="table">
+          <caption class="table__caption">Kluby CR7</caption>
+          <tr class="table__tableRow">
+            <th class="table__tableCell table__tableCell--header" scope="col">Klub</th>
+            <th class="table__tableCell table__tableCell--header" scope="col">Liga</th>
+            <th class="table__tableCell table__tableCell--header" scope="col">Stadion</th>
+            <th class="table__tableCell table__tableCell--header" scope="col">data Założenia</th>
+            <th class="table__tableCell table__tableCell--header" scope="col">Obecny trener</th>
+          </tr>
+          <tr class="table__tableRow">
+            <th class="table__tableCell table__tableCell--header" scope="row">Sporting CP</th>
+            <td class="table__tableCell"> Liga NOS</td>
+            <td class="table__tableCell">Jose Alvarade</td>
+            <td class="table__tableCell">1902</td>
+            <td class="table__tableCell">Ruben Amorin</td>
+          </tr>
+          <tr class="table__tableRow">
+            <th class="Table__tableCell table__tableCell--header" scope="row">Manchester United</th>
+            <td class="table__tableCell">Premier League</td>
+            <td class="table__tableCell">Old trafford</td>
+            <td class="table__tableCell">1878</td>
+            <td class="table__tableCell">Erik Ten Hag</td>
+          </tr>
+          <tr class="table__tableRow">
+            <th class="table__tableCell table__tableCell--header" scope="row">Real Madryt</th>
+            <td class="table__tableCell">La Liga Santander</td>
+            <td class="table__tableCell">Santiago Bernabeu</td>
+            <td class="table__tableCell">1902</td>
+            <td class="table__tableCell">Carlo Ancelotti</td>
+          </tr>
+          <tr class="table__tableRow">
+            <th class="table__tableCell table__tableCell--header" scope="row">Juventus</th>
+            <td class="table__tableCell">Serie A</td>
+            <td class="table__tableCell">Alianz Stadium</td>
+            <td class="table__tableCell">1897</td>
+            <td class="table__tableCell">Massimiliano Allegri</td>
+          </tr>
+          <tr class="table__tableRow">
+            <th class="table__tableCell table__tableCell--header" scope="row">Al-Nassr</th>
+            <td class="table__tableCell">Saudi Profesional League</td>
+            <td class="table__tableCell">AL-AWWAL PARK Stadium</td>
+            <td class="table__tableCell">1955</td>
+            <td class="table__tableCell">Luis Castro</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section class="section" id="NationalTeam">
+      <h2 class="section__header">Reprezentacja</h2>
+      <p class="section__paragraph">
+  W reprezentacji Portugalii zadebiutował 20 sierpnia 2003 w meczu z Kazachstanem wygranym 1:0.W maju 2004 dostał od Luiza Felipe Scolariego powołanie do reprezentacji Portgualii na Mistrzostwa Europy w Piłce Nożnej 2004. Zdobył z Portugalią tytuł wicemistrza Europy po finałowej porażce z Grecją 0:1. W 2006 roku, został powołany na Mistrzostwa świata w Niemczech. Ostatecznie zajęli czwarte miejsce, przegrywając mecz z Francją (0:1) i spotkanie o brązowy medal z Niemcami (1;3), a Ronaldo został nominowany do nagrody dla najlepszego młodego piłkarza, którą wygrał Lukas Podolski. 6 lutego 2007 zadebiutował jako kapitan drużyny Portugalii w towarzyskim meczu z Brazylią.Swoją jedyną bramkę w Mistrzostwach Świata w Piłce Nożnej 2010 zdobył w wygranym 7:0 meczu z Koreą Północną, było to jego pierwsze od 16 miesięcy trafienie dla reprezentacji. Portugalczycy odpadli w 1/8 finału, przegrywając 0:1 z Hiszpanią. Ronaldo zgarnął trzy nagrody dla zawodnika meczu w spotkaniach fazy grupowej.Strzelił siedem goli w kwalifikacjach do Mistrzostw Europy w Piłce Nożnej 2012, włączając w to dwa trafienia z Bośnią w barażach. Następnie zdobył dwa gole w ostatnim meczu fazy grupowej z Holandią (2:1). Także w ćwierćfinale zapewnił zwycięstwo swojej drużynie, strzelając jedyną bramkę w spotkaniu przeciwko Czechom. Portugalia odpadła po rzutach karnych w półfinałowym meczu z Hiszpanią. W 2016 Pomógł także w zdobyciu pierwszego tytułu mistrzowskiego dla Portugalii, kończąc turniej z trzema golami i trzema asystami gdzie Wygrał w meczu finałowym z Francją 10 lipca 2016.W 2019 roku, wygrał również Ligę Narodów w 2019. Wystąpił także na MŚ2018, ME2020 i MŚ2022 w Katarze.</p>
+  </section>
+  <section class="section" id="Achievement">
+    <h2 class="section__header">Osiągnięcia</h2>
+    <p class="section__paragraph">
+    <div class="tableContainer">
+      <table class="table">
+        <caption class="table__caption">Ronaldo i jego Największe Osiągnięcie z danym klubem</caption>
+        <tr class="tableRow">
+          <th class="table__tableCell table__tableCell--header" scope="col">Klub</th>
+          <th class="table__tableCell table__tableCell--header" scope="col">Osiągnięcia Drużynowe</th>
+          <th class="table__tableCell table__tableCell--header" scope="col">Osiągnięcia Indywidualne</th>
+        </tr>
+        <tr class="tableRow">
+          <th class="table__tableCell  table__tableCell--header">Sporting CP</th>
+          <td class="table__tableCell">SuperPuchar Portugalii: 2002</td>
+          <td class="table__tableCell">5 goli w 31 meczach</td>
+        </tr>
+        <tr class="table__tableRow">
+          <th class="table__tableCell table__tableCell--header">Manchester United</th>
+          <td class="table__tableCell">3x mistrz Anglii: 2007, 2008, 2009</td>
+          <td class="table__tableCell">Złota piłka w 2008 roku</td>
+        </tr>
+        <tr class="table__tableRow">
+          <td class="table__tableCell table__tableCell--header">Real Madryt</td>
+          <td class="table__tableCell"> 4x Liga Mistrzów: 2014, 2016, 2017, 2018</td>
+          <td class="table__tableCell">4x Złota piłka: 2013, 2014, 2016, 2017</td>
+        </tr>
+        <tr class="table__tableRow">
+          <th class="table__tableCell table__tableCell--header">Juventus</th>
+          <td class="table__tableCell">2x Mistrz Włoch:2019, 2020</td>
+          <td class="table__tableCell">101 goli w barwach Juve</td>
+        </tr>
+        <tr class="table__tableRow">
+          <th class="table__tableCell table__tableCell--header">Al-Nassr</th>
+          <td class="table__tableCell">King's Cup:2023</td>
+          <td class="table__tableCell">37 goli w barwach Al-NAssr</td>
+        </tr>
+      </table>
+    </div>
+
+    </p>
+    <button class=" js-buttonElement"> Włącz <span class="js-changeColor">ciemny </span> motyw</button>
+  </section>
+       </main>
+       <footer class="footer"> © Praca została wykonana na rzecz kursu YouCode z pomocą Wikipedii</footer>
+    </div>
+ 
+</body>
+</html>

@@ -1,0 +1,15 @@
+.navigation__link {
+  color: purple;
+  background-color: rgb(192, 255, 242);
+  text-decoration: none;
+}
+
+.navigation__link:hover {
+  color: hsl(0, 100%, 30%);
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.navigation__link:active {
+  color: hsl(0, 100%, 40%);
+}
