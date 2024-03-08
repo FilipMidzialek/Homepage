@@ -1,18 +1,18 @@
-let buttonElement = document.querySelector(".js-buttonElement");
-let bodyElement = document.querySelector(".js-bodyElement");
-let changeColor =
- document.querySelector(".js-changeColor")
-
-buttonElement.addEventListener("click", () => {
-  bodyElement.classList.toggle("dark");
+{
+  const changeBackground = () => {
+    const body = document.querySelector(".js-bodyElement");
+    const changeColor = document.querySelector(".js-changeColor");
   
-  changeColor.innerText= bodyElement.classList.contains("dark") ? "jasny" : "ciemny";
-});
-
-let section__button = document.querySelector(".js-RemoveHeadlineButton")
-let section__paragraph = document.querySelector(".js-section__paragraph")
-
-section__button.addEventListener("click", () => {
-    section__paragraph.remove()
-    section__button.remove()
-});
+    body.classList.toggle("dark");
+    changeColor.innerText= body.classList.contains ? "jasny" : "ciemny"
+   };
+  
+   const init = () => {
+    const buttonElement = document.querySelector(".js-buttonElement");
+    buttonElement.addEventListener ("click", changeBackground);
+   };
+  
+   init();
+  
+}
+ 
