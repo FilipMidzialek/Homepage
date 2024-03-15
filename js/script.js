@@ -1,4 +1,8 @@
 {
+const welcome = () => {
+  console.log("Witam wszystkich deweloperów");
+};
+
   const changeBackground = () => {
     const body = document.querySelector(".js-bodyElement");
     const changeColor = document.querySelector(".js-changeColor");
@@ -11,8 +15,12 @@
     const buttonElement = document.querySelector(".js-buttonElement");
     buttonElement.addEventListener ("click", changeBackground);
    };
+
+   welcome();
   
    init();
   
+
+
 }
  
